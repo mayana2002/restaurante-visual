@@ -6,6 +6,7 @@ import InicioSesion from './inicio_sesion/InicioSesion';
 import CrearUsuario from './cuentas/CrearUsuario';
 import CrearProveedor from './proveedores/CrearProveedor';
 import Proveedores from './proveedores/Proveedores';
+import EditarUsuario from './cuentas/EditarUsuario';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 						<Route exatc path='/crear-usuario' element={<CrearUsuario/>}/>
 						<Route exaxt path='/crear-proveedor' element={<CrearProveedor/>}/>
 						<Route exaxt path='/proveedores' element={<Proveedores/>}/>
+						<Route exaxt path='/editar-usuario/:numeroDocumento' element={<EditarUsuario/>}/>
 					</Route>
 				</Routes>
 			</BrowserRouter>

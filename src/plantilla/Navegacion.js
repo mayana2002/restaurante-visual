@@ -11,6 +11,13 @@ export default function Navegacion() {
         <div className='container'>
             <div className='wrapper bg-white' style={{maxWidth: "1300px"}}>
             <div class="h2 text-center">Hola, Administrador</div>
+            <div className="d-flex justify-content-center">
+                <Link to='/inicio-sesion'>
+                    <button class="btn btn-block">Cerrar sesión</button>
+                </Link>
+            </div>
+            <br/>
+            <br/>
             <div className="row">
                 <div className="col-sm-3 mb-3 mb-sm-3">
                     <div className="card" style= {{width: "14rem"}}>
